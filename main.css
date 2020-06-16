@@ -1,0 +1,150 @@
+body {
+    background-color: #ECEEF1;
+    font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* #signin {
+    width: fit-content;
+    position: relative;
+    left: 67%;
+} */
+
+#signin {
+    text-align: right;
+    position: relative;
+}
+
+#signin-text {
+    display: inline-block;   
+    font-size: small;
+}
+
+#signin-btn-container {
+    display: inline-block;  
+    position: relative;
+    bottom: 10px;
+}
+
+#signin-btn {
+    background-color: rgb(0, 119, 197);
+    width: 102px;
+    height: 32px;
+    color: white;
+    border:1px solid #124d77;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#head-logo {
+    width: fit-content;
+    margin: 30px auto 10px auto;
+}
+
+#links-container {
+    width: fit-content;
+    margin: auto;
+    position: relative;
+}
+
+.links {
+    position: relative;
+    bottom: 10px;
+    font-size: 17px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: inherit;
+    opacity: 0.5;
+}
+
+fieldset {
+    background-color: white;
+    width: 380px;
+    margin: auto;
+    text-align: center;
+}
+
+#create-account-text {
+    font-size: x-large;
+    opacity: 0.7;
+}
+
+#message, #learn-more, label {
+    font-size: 14px;
+    opacity: 0.7;
+}
+
+form{
+    text-align: left;
+    width: fit-content;
+    margin: 0 0 0 20px;
+}
+
+#tel-message {
+    font-size: 11px;
+    opacity: 0.7;
+}
+
+
+input{
+    margin-top: 10px;
+    width: 320px;
+    height: 34px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+}
+
+input:focus {
+    box-shadow: 0px 0px 10px -1px rgba(0,204,255,1);
+}
+
+#create-btn {
+    margin: 20px 0 0 0;
+    font-size: large;
+    background-color: rgb(0, 119, 197);
+    width: 320px;
+    height: 36px;
+    color: white;
+    border:1px solid #124d77;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#agree {
+    font-size: 14px;
+    opacity: 0.7;
+}
+
+nav {
+    width: fit-content;
+    margin: auto;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    padding: 5px;
+    display: inline-block;
+}
+
+li a {
+    color: inherit;
+    font-size: small;
+    opacity: 0.6;
+}
+
+li a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    width: 65vw;
+    margin: 0 auto auto auto;
+    font-size: small;
+    opacity: 0.6;
+}

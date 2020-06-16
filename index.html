@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en-IN">
+<head>
+    <title>Intuit Accounts - Sign up</title>
+    <link rel="icon" href="images/favicon-16x16.png" type="image/x-icon">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <script src="https://kit.fontawesome.com/68b71c716a.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="signin">
+        <div id="signin-text">
+            <div id="already-member">Already have an Intuit account?</div>
+            <a id="forgot" href="#">I forgot my user ID and password</a>
+        </div>
+        <div id="signin-btn-container">
+            <button id="signin-btn"><i class="fas fa-unlock-alt" style="color: white;"></i> &nbsp; Sign In</button>
+        </div>
+    </div>
+
+    <header>
+        <div id="head-logo">
+            <img src="images/intuit.png" alt="Intuit logo" id="intuit-logo">
+        </div>
+    </header>
+
+    <section id="other-links">
+        <div id="links-container">
+            <img src="images/mint.png" alt="mint logo" id="mint-logo">
+            <a href="#" class="links">mint</a>
+            <img src="images/qb.png" alt="quick book logo" id="qb-logo">
+            <a href="#" class="links">quickbooks</a>
+            <img src="images/tb.png" alt="turbotax logo" id="tb-logo">
+            <a href="#" class="links">turbotax</a>
+        </div>
+    </section>
+
+    <fieldset>
+        <p id="create-account-text">Create an Intuit account</p>
+        <span id="message">One account for everything Intuit, including Mint.</span><br>
+        <a id="learn-more" href="#">Learn more</a>
+
+        <form>
+            <br>
+            <label for="email"><span>Email address</span></label><br>
+            <input type="email" id="email" required><br>
+
+            <br>
+            <label for="phone"><span>Phone (recommended)</span> </label><br>
+            <input type="tel" id="phone" required><br>
+            <span id="tel-message">Standard call, messaging or data rates may apply.</span><br>
+
+            <br>
+            <label for="password"><span>Password</span> </label><br>
+            <input type="password" id="password" required><br>
+
+            <br>
+            <label for="cnfrm-password"><span>Confirm Password</span> </label><br>
+            <input type="password" id="cnfrm-password" required><br>
+
+        </form>
+        <button id="create-btn"><i class="fas fa-unlock-alt" style="color: white;"></i> &nbsp;Create Account</button>
+        <p id="agree">By clicking Create account, you agree to our
+            <a href="#">Terms</a> and have read and acknowledge our <a href="#">Privacy Statement.</a></p>
+    </fieldset>
+    <nav>
+        <ul>
+            <li><a href="#">Legal</a></li>
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Security</a></li>
+        </ul>
+    </nav>
+
+    <footer>
+        © 2020 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc.
+        Terms and conditions, features, support, pricing, and service options subject to change without notice.
+    </footer>
+</body>
+</html>
